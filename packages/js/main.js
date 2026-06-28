@@ -2,6 +2,8 @@
 const navMenu = document.getElementById("nav-menu"),
   navToggle = document.getElementById("nav-toggle"),
   navClose = document.getElementById("nav-close");
+  // let body = document.body
+  // let dark = document.getElementById("dark");
 
 /*===== MENU SHOW =====*/
 /* Validate if constant exists */
@@ -210,3 +212,13 @@ themeButton.addEventListener("click", () => {
   localStorage.setItem("selected-theme", getCurrentTheme());
   localStorage.setItem("selected-icon", getCurrentIcon());
 });
+
+
+// function darkMode() {
+//   if (body.classList.contains("dark")) {
+//     body.classList.remove("dark");
+//   }else {
+//     body.classList.add("dark");
+//   }
+  
+// }
